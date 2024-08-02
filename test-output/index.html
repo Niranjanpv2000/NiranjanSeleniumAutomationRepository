@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Niranjan_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Niranjan Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>D:\NiranjanProjects\Niranjan_Projects_WorkSpace\SeleniumProjectNiranjan\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Niranjan_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Niranjan_Automation_Suite" class="hide-methods passed suite-Niranjan_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Niranjan_Automation_Suite -->
+                      <a href="#" panel-name="suite-Niranjan_Automation_Suite" class="show-methods passed suite-Niranjan_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Niranjan_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Niranjan_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.login" class="method navigator-link" hash-for-method="LoginWithInValidPassword">LoginWithInValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.login" class="method navigator-link" hash-for-method="LoginWithInValidUserName">LoginWithInValidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.login" class="method navigator-link" hash-for-method="LoginWithValidCredentials(niranjanpvprojects@gmail.com, niranjanprojects10$)">LoginWithValidCredentials(niranjanpvprojects@gmail.com, niranjanprojects10$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.register" class="method navigator-link" hash-for-method="VerifyExistingEmailInEmailField">VerifyExistingEmailInEmailField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.register" class="method navigator-link" hash-for-method="VerifyInvalidEmailInEmailField">VerifyInvalidEmailInEmailField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.register" class="method navigator-link" hash-for-method="VerifyInvalidPasswordInPasswordField">VerifyInvalidPasswordInPasswordField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.register" class="method navigator-link" hash-for-method="VerifyInvalidPhoneNoInPhoneNoField">VerifyInvalidPhoneNoInPhoneNoField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Niranjan_Automation_Suite" title="com.seleniumprojectniranjan.qa.testcases.products" class="method navigator-link" hash-for-method="Verifyproducts(niranjanpvprojects@gmail.com, niranjanprojects10$)">Verifyproducts(niranjanpvprojects@gmail.com, niranjanprojects10$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Niranjan_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Niranjan_Automation_Suite" class="panel Niranjan_Automation_Suite">
+          <div class="suite-Niranjan_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumprojectniranjan.qa.testcases.register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyExistingEmailInEmailField">
+                  </a> <!-- VerifyExistingEmailInEmailField -->
+                  <span class="method-name">VerifyExistingEmailInEmailField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidEmailInEmailField">
+                  </a> <!-- VerifyInvalidEmailInEmailField -->
+                  <span class="method-name">VerifyInvalidEmailInEmailField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidPasswordInPasswordField">
+                  </a> <!-- VerifyInvalidPasswordInPasswordField -->
+                  <span class="method-name">VerifyInvalidPasswordInPasswordField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidPhoneNoInPhoneNoField">
+                  </a> <!-- VerifyInvalidPhoneNoInPhoneNoField -->
+                  <span class="method-name">VerifyInvalidPhoneNoInPhoneNoField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Niranjan_Automation_Suite-class-passed -->
+          <div class="suite-Niranjan_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumprojectniranjan.qa.testcases.login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInValidPassword">
+                  </a> <!-- LoginWithInValidPassword -->
+                  <span class="method-name">LoginWithInValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInValidUserName">
+                  </a> <!-- LoginWithInValidUserName -->
+                  <span class="method-name">LoginWithInValidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithValidCredentials(niranjanpvprojects@gmail.com, niranjanprojects10$)">
+                  </a> <!-- LoginWithValidCredentials(niranjanpvprojects@gmail.com, niranjanprojects10$) -->
+                  <span class="method-name">LoginWithValidCredentials</span>
+                  <span class="parameters">(niranjanpvprojects@gmail.com, niranjanprojects10$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Niranjan_Automation_Suite-class-passed -->
+          <div class="suite-Niranjan_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumprojectniranjan.qa.testcases.products</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyproducts(niranjanpvprojects@gmail.com, niranjanprojects10$)">
+                  </a> <!-- Verifyproducts(niranjanpvprojects@gmail.com, niranjanprojects10$) -->
+                  <span class="method-name">Verifyproducts</span>
+                  <span class="parameters">(niranjanpvprojects@gmail.com, niranjanprojects10$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Niranjan_Automation_Suite-class-passed -->
+        </div> <!-- panel Niranjan_Automation_Suite -->
+        <div panel-name="test-xml-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\NiranjanProjects\Niranjan_Projects_WorkSpace\SeleniumProjectNiranjan\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Niranjan Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.seleniumprojectniranjan.qa.listeners.mylisteners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Niranjan Automation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.seleniumprojectniranjan.qa.testcases.login&quot;/&gt;
+      &lt;class name=&quot;com.seleniumprojectniranjan.qa.testcases.register&quot;/&gt;
+      &lt;class name=&quot;com.seleniumprojectniranjan.qa.testcases.products&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Niranjan Automation Tests --&gt;
+&lt;/suite&gt; &lt;!-- Niranjan Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Niranjan Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Niranjan Automation Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Niranjan Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Niranjan Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Niranjan_Automation_Suite');
+function tableData_Niranjan_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Verifyproducts')
+data.setCell(0, 2, 'com.seleniumprojectniranjan.qa.testcases.products')
+data.setCell(0, 3, 8631);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginWithValidCredentials')
+data.setCell(1, 2, 'com.seleniumprojectniranjan.qa.testcases.login')
+data.setCell(1, 3, 7721);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginWithInValidPassword')
+data.setCell(2, 2, 'com.seleniumprojectniranjan.qa.testcases.login')
+data.setCell(2, 3, 5984);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginWithInValidUserName')
+data.setCell(3, 2, 'com.seleniumprojectniranjan.qa.testcases.login')
+data.setCell(3, 3, 4918);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyExistingEmailInEmailField')
+data.setCell(4, 2, 'com.seleniumprojectniranjan.qa.testcases.register')
+data.setCell(4, 3, 1466);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyInvalidEmailInEmailField')
+data.setCell(5, 2, 'com.seleniumprojectniranjan.qa.testcases.register')
+data.setCell(5, 3, 1165);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyInvalidPasswordInPasswordField')
+data.setCell(6, 2, 'com.seleniumprojectniranjan.qa.testcases.register')
+data.setCell(6, 3, 1165);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyInvalidPhoneNoInPhoneNoField')
+data.setCell(7, 2, 'com.seleniumprojectniranjan.qa.testcases.register')
+data.setCell(7, 3, 804);
+window.suiteTableData['Niranjan_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Niranjan_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-Niranjan_Automation_Suite">
+              </div> <!-- times-div-Niranjan_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Niranjan Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.seleniumprojectniranjan.qa.testcases.register</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">RegistrationWithvalidCredentials</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Niranjan_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInValidPassword</span>
+                <span class="method-start">22604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">28600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInValidUserName</span>
+                <span class="method-start">46805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">53434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithValidCredentials(niranjanpvprojects@gmail.com, niranjanprojects10$)</span>
+                <span class="method-start">72727 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.register</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">80460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyExistingEmailInEmailField</span>
+                <span class="method-start">101079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">102551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidEmailInEmailField</span>
+                <span class="method-start">123240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">124410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidPasswordInPasswordField</span>
+                <span class="method-start">143268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">144437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidPhoneNoInPhoneNoField</span>
+                <span class="method-start">164777 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.products</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">165654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verifyproducts(niranjanpvprojects@gmail.com, niranjanprojects10$)</span>
+                <span class="method-start">179200 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">187834 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.products</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">188555 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumprojectniranjan.qa.testcases.register</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">188677 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
